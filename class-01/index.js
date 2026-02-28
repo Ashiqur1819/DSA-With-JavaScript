@@ -72,9 +72,30 @@
 // console.log("b = ", b)
 // console.log("c = ", c)
 
-let a = true;
-let b = false;
-a++;
-b++
+// let a = true;
+// let b = false;
+// a++;
+// b++
 
-console.log(a, b);
+// console.log(a, b);
+
+// =======================================================================================================
+
+// Area of triangle by heron's formula
+// sqrt of s * (s-a) * (s-b) * (s-c)
+
+// let a = 5
+// let b = 4
+// let c = 3
+
+// let s = (a + b + c) / 2
+
+// const result = Math.sqrt(s * (s-a) * (s-b) * (s-c))
+// console.log(result)
+
+// Circumference of circle
+
+// let r = 15
+
+// let result = Number((2 * Math.PI * r).toFixed(2))
+// console.log(result)
