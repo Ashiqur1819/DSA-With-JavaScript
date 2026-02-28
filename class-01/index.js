@@ -45,9 +45,36 @@
 
 // 03. Swap with destructuring
 
-let a = 10;
-let b = 20;
+// let a = 10;
+// let b = 20;
 
-[a, b] = [b, a];
+// [a, b] = [b, a];
+
+// console.log(a, b);
+
+// =======================================================================================================
+
+// Unary Operator
+
+// let i = 11;
+// i = i++ + ++i
+
+// console.log(i)
+
+// let a = 11; //12
+// let b = 22; //23
+
+// let c = a + b + a++ + b++ + ++a + ++b
+
+// // 11 + 22 + 11 + 22 + 13 + 24
+
+// console.log("a = ", a)
+// console.log("b = ", b)
+// console.log("c = ", c)
+
+let a = true;
+let b = false;
+a++;
+b++
 
 console.log(a, b);
