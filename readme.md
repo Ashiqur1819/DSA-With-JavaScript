@@ -1,0 +1,4 @@
+- Area of triangle by heron's formula
+- Discount
+- Electrity Bill
+- BDT Denomination

@@ -123,5 +123,5 @@
 //     amount = amount % 2
 // }
 // if(amount === 1){
-//     console.log("1 notes: ", Math.floor(amount))
+//     console.log("1 notes: ", Math.floor(amount)) 
 // }
