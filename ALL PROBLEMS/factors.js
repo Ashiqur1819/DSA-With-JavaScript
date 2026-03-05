@@ -1,0 +1,27 @@
+const pr = 52;
+
+if (pr === null) {
+  console.log("Cancelled");
+} else {
+  const n = Number(pr);
+
+  if (!Number.isInteger(n) || n <= 0) {
+    console.log("Enter a valid positive integer");
+  } else {
+    const divisors = [];
+
+    // 36
+
+    for (let i = 1; i <= Math.floor(Math.sqrt(n)); i++) {
+      if (n % i === 0) {
+        divisors.push(i);
+        if (i !== n / i) {
+          divisors.push(n / i);
+        }
+      }
+    }
+
+    divisors.sort((a, b) => a - b);
+    console.log(divisors);
+  }
+}
